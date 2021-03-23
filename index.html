@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+        <title>HealthCare</title>
+    </head>
+
+    <body>
+        <div class="container"> <!-- Box da tela de Login/Cadastro-->
+            <div class="content first-content"> <!-- Primeiro conteúdo -->
+                <div class="first-column"> <!-- Primeira coluna -->
+                    <h2 class="title title-primary">Bem vindo de volta!</h2>
+                    <p class="description description-primary">Para se manter conectado com a gente</p>
+                    <p class="description description-primary">por favor faça o login com suas informações pessoais</p>
+                    <button id="entrar" class="btn btn-primary">Entrar</button>
+                </div>
+                <div class="second-column"> <!-- Segunda coluna -->
+                    <img src="imagens/HomeCare.png" alt="HomeCare">
+                    <h2 class="title title-second">Criar conta</h2>
+                    <form class="form">
+
+                        <label class="label-input" for="">
+                            <i class="far fa-user icon-modify"></i>
+                        <input type="text" placeholder="Nome">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                        </label>
+
+                        <button class="btn btn-second">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="content second-content"> <!-- Segundo conteúdo -->
+                <div class="first-column"> <!-- Primeira coluna -->
+                    <h2 class="title title-primary">Olá!</h2>
+                    <p class="description description-primary">Se você não possui cadastro</p>
+                    <p class="description description-primary">entre em contato com algum administrador</p>
+                    <button class="btn btn-primary">Fale Conosco</button>
+                    <button id="cadastro" class="btn btn-primary">Cadastro</button>
+                </div>
+                <div class="second-column"> <!-- Segunda coluna -->
+                    <img src="imagens/HomeCare.png" alt="HomeCare">
+                    <h2 class="title title-second">Conecte-se</h2>
+                    <form class="form">
+                        <label class="label-input" for="">
+                            <i class="far fa-envelope icon-modify"></i>
+                        <input type="email" placeholder="Email">
+                        </label>
+
+                        <label class="label-input" for="">
+                            <i class="fas fa-lock icon-modify"></i>
+                        <input type="password" placeholder="Senha">
+                        </label>
+                        <a class="password" href="#">Esqueceu a senha?</a>
+                        <button class="btn btn-second">Entrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
